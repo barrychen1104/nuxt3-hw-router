@@ -1,8 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 import { Icon } from "@iconify/vue";
-
-import "bootstrap/js/dist/collapse";
 </script>
 
 <template>
@@ -87,7 +85,7 @@ import "bootstrap/js/dist/collapse";
         </picture>
 
         <main class="position-relative w-100 w-md-auto">
-          <RouterView />
+          <slot />
         </main>
       </div>
     </div>

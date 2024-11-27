@@ -47,7 +47,7 @@ const route = useRoute();
           </li>
         </ul>
 
-        <RouterView />
+        <slot />
       </div>
     </section>
 
